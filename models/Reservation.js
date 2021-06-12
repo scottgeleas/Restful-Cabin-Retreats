@@ -26,11 +26,11 @@ Reservation.init(
             },
         },
         reservation_start: {
-            type: DataTypes.DATE,
+            type: DataTypes.DATEONLY,
             allowNull: false,
         },
         reservation_end: {
-            type: DataTypes.DATE,
+            type: DataTypes.DATEONLY,
             allowNull: false,
         },
     },

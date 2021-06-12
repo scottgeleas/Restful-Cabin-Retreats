@@ -1,8 +1,8 @@
 // import models
-const User = require('./user');
-const Reservation = require('./reservation');
-const Cabin = require('./cabin');
-const Location = require('./location');
+const User = require('./User');
+const Reservation = require('./Reservation');
+const Cabin = require('./Cabin');
+const Location = require('./Location');
 
 User.hasMany(Reservation, {
     foreignKey: 'user_id',

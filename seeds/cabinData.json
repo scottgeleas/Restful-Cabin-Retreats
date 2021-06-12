@@ -1,0 +1,44 @@
+[
+    {
+        "title": "Golden Peak",
+        "description": "A tranquil cabin with glorious views",
+        "occupancy": 4,
+        "price": 1220,
+        "location_id": 1
+    },
+    {
+        "title": "Rainbow Valley",
+        "description": "A peaceful cabin overlooking natures beauty",
+        "occupancy": 6,
+        "price": 1400,
+        "location_id": 3
+    },
+    {
+        "title": "Bear Basin",
+        "description": "A cabin alive with nature and wildlife",
+        "occupancy": 7,
+        "price": 1500,
+        "location_id": 5
+    },
+    {
+        "title": "Babbling Pines",
+        "description": "A charming cabin with picturesque views",
+        "occupancy": 3,
+        "price": 1200,
+        "location_id": 5
+    },
+    {
+        "title": "Eagle Forest",
+        "description": "An enchanting cabin in the fresh forest",
+        "occupancy": 2,
+        "price": 1000,
+        "location_id": 5
+    },
+    {
+        "title": "Blue Skies",
+        "description": "A homey cabin with amazing views",
+        "occupancy": 7,
+        "price": 1500,
+        "location_id": 5
+    }
+]
