@@ -1,6 +1,7 @@
 // imports
 const path = require('path');
 const express = require('express');
+const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 
 // initializing an express app
@@ -10,6 +11,16 @@ const PORT = process.env.PORT || 3001;
 // middleware to use so that http request will work smoothly
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+// define handlebar
+const hbs = exphbs.create({
+    defaultLayout: 'main',
+    layoutsDir: path.join(__dirname, '/views/layouts/'),
+    partialsDir: path.join(__dirname, '/views/partials/'),
+});
+
+app.engine('handlebars', hbs.engine);
+app.set('view engine', 'handlebars');
 
 // defines the location of where to get static files
 app.use(express.static(path.join(__dirname, 'public')));
