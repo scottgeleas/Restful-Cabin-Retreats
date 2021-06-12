@@ -1,0 +1,66 @@
+[
+    {
+        "country": "Egypt",
+        "region": "Africa"
+    },
+    {
+        "country": "Kenya",
+        "region": "Africa"
+    },
+    {
+        "country": "Madagascar",
+        "region": "Africa"
+    },
+    {
+        "country": "Bahamas",
+        "region": "Americas"
+    },
+    {
+        "country": "Canada",
+        "region": "Americas"
+    },
+    {
+        "country": "Jamaica",
+        "region": "Americas"
+    },
+    {
+        "country": "Cayman Islands",
+        "region": "Americas"
+    },
+    {
+        "country": "India",
+        "region": "Asia"
+    },
+    {
+        "country": "Maldives",
+        "region": "Asia"
+    },
+    {
+        "country": "Finland",
+        "region": "Europe"
+    },
+    {
+        "country": "Ireland",
+        "region": "Europe"
+    },
+    {
+        "country": "Norway",
+        "region": "Europe"
+    },
+    {
+        "country": "Netherlands",
+        "region": "Europe"
+    },
+    {
+        "country": "Fiji",
+        "region": "Oceania"
+    },
+    {
+        "country": "New Zealand",
+        "region": "Oceania"
+    },
+    {
+        "country": "Samoa",
+        "region": "Oceania"
+    }
+]
