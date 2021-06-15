@@ -1,6 +1,6 @@
 # Project 2: RESTful Cabin Retreats
 
-![Icon Name](Assets/img/cabin.png)
+![Icon Name](./images/cabin.png)
 <!-- image credit: this image is from icons8-->
 
 ## Team Members
@@ -42,11 +42,11 @@ The members of our team (Group B) include: Oleksandr Kulyk, Scott Geleas, and Ni
   ### Screen Captures
   Image of Entity Relationship Diagram (ERD) was created to show the data model and the relationships. The ERD was created wtih DrawSQL. (https://drawsql.app/home)
 
-  ![Entity Relationship Diagram](Assets/img/erd.jpg)
+  ![Entity Relationship Diagram](./images/erd.jpg)
 
   This capture depicts the visual display and key functionality of our application.
   
-  ![RESTful Cabin Retreats](Assets/img/rcr.jpg)
+  ![RESTful Cabin Retreats](./imgages/rcr.jpg)
 
   ## Project 2 Requirements (from assignment README.md)
   * Use Node.js and Express.js to create a RESTful API.
