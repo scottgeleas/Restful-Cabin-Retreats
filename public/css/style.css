@@ -89,6 +89,14 @@ a {
     background-color: var(--green);
 }
 
+.alert-message {
+    color: var(--green);
+    border-radius: 4px;
+    border: 1px solid;
+    padding: var(--normal-indent);
+    margin: var(--normal-indent) 0;
+}
+
 /*----- END Common Styles -----*/
 
 
@@ -175,6 +183,7 @@ a {
 
 .content-wrapper {
     max-width: 1440px;
+    padding: 0 var(--small-indent);
     margin: 0 auto;
 }
 
@@ -191,7 +200,6 @@ a {
     display: flex;
     flex-wrap: wrap;
     padding-top: var(--large-indent);
-    margin: 0 var(--small-indent);
 }
 
 .cabin-item {
