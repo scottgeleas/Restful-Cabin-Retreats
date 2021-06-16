@@ -14,13 +14,14 @@ app.use(express.urlencoded({ extended: true }));
 
 // define handlebar
 const hbs = exphbs.create({
-    defaultLayout: 'main',
+    extname: 'hbs',
+    defaultLayout: 'base',
     layoutsDir: path.join(__dirname, '/views/layouts/'),
     partialsDir: path.join(__dirname, '/views/partials/'),
 });
 
-app.engine('handlebars', hbs.engine);
-app.set('view engine', 'handlebars');
+app.engine('hbs', hbs.engine);
+app.set('view engine', 'hbs');
 
 // defines the location of where to get static files
 app.use(express.static(path.join(__dirname, 'public')));

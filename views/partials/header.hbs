@@ -1,0 +1,20 @@
+<header class="site-header">
+    <a class="logo" href="/">Restful Cabin Retreats</a>
+    <nav class="main-nav">
+        <i class="main-nav-toggle bi bi-list js-main-nav-toggle"></i>
+        <ul class="main-nav-list js-main-nav-list">
+            {{#if loggenIn}}
+                <li class="main-nav-item">
+                    <a href="#">Dashboard</a>
+                </li>
+                <li class="main-nav-item">
+                    <a href="#">Logout</a>
+                </li>
+            {{else}}
+                <li class="main-nav-item">
+                    <a href="#">Login</a>
+                </li>
+            {{/if}}
+        </ul>
+    </nav>
+</header>
