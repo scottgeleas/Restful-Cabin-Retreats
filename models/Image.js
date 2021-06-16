@@ -32,4 +32,4 @@ Image.init(
     }
 );
 
-module.exports = Location;
+module.exports = Image;

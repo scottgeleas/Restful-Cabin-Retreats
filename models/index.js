@@ -41,4 +41,4 @@ Image.belongsTo(Cabin, {
     foreignKey: 'cabin_id'
 });
 
-module.exports = { User, Reservation, Cabin, Location };
+module.exports = { User, Reservation, Cabin, Location, Image };

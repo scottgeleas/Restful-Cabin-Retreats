@@ -4,7 +4,7 @@ const { User } = require('../../models');
 router.get('/', async (req, res) => {
     try {
         let users = await User.findAll();
-        let UserData = users.map(item => {
+        let userData = users.map(item => {
             return item.get({ plain: true })
         })
         res.status(200).json(userData);
