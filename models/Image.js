@@ -18,7 +18,7 @@ Image.init(
                 key: "id",
             },
         },
-        image: {
+        src: {
             type: DataTypes.STRING,
             allowNull: false,
         },
