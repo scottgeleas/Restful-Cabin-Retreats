@@ -1,12 +1,28 @@
-// imports
 const path = require('path');
 const express = require('express');
+const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
+const sequelize = require('./config/connection');
 
 // initializing an express app
 const app = express();
 const PORT = process.env.PORT || 3001;
+
+//sequelize session
+const SequelizeStore = require('connect-session-sequelize')(session.Store);
+
+const sess = {
+    secret: 'Secret',
+    cookie: {},
+    resave: false,
+    saveUninitialized: true,
+    store: new SequelizeStore({
+        db: sequelize,
+    }),
+};
+
+app.use(session(sess));
 
 // middleware to use so that http request will work smoothly
 app.use(express.json());
@@ -30,4 +46,10 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use(routes);
 
 // start listening to http request
-app.listen(PORT, () => console.log('Now listening'));
+sequelize
+    .sync({
+        force: false,
+    })
+    .then(() => {
+        app.listen(PORT, () => console.log('Now listening'));
+    });

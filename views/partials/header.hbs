@@ -3,16 +3,16 @@
     <nav class="main-nav">
         <i class="main-nav-toggle bi bi-list js-main-nav-toggle"></i>
         <ul class="main-nav-list js-main-nav-list">
-            {{#if loggenIn}}
+            {{#if loggedIn}}
                 <li class="main-nav-item">
                     <a href="#">Dashboard</a>
                 </li>
                 <li class="main-nav-item">
-                    <a href="#">Logout</a>
+                    <a class="js-logout-link" href="/">Logout</a>
                 </li>
             {{else}}
                 <li class="main-nav-item">
-                    <a href="#">Login</a>
+                    <a href="/login">Login</a>
                 </li>
             {{/if}}
         </ul>
