@@ -1,553 +1,553 @@
 [
     {
         "title": "Safari Sunrise",
-        "description": "A picturesque safari lodge",
+        "description": "A picturesque safari lodge lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
         "occupancy": 12,
         "price": 2500,
         "location_id": 1
     },
     {
         "title": "Peaceful Lion",
-        "description": "A calm tent in a lush safari location",
+        "description": "A calm tent in a lush safari location lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
         "occupancy": 3,
         "price": 1200,
         "location_id": 1
     },
     {
         "title": "Zebra's  Retreat",
-        "description": "A wilderness dwelling in an animal preserve",
+        "description": "A wilderness dwelling in an animal preserve lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
         "occupancy": 5,
         "price": 1700,
         "location_id": 1
     },
     {
         "title": "Lion's Cottage",
-        "description": "Serene cottage in the lush greens",
+        "description": "Serene cottage in the lush greens lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
         "occupancy": 2,
         "price": 1100,
         "location_id": 2
     },
     {
         "title": "Sunny Sands",
-        "description": "A beach hut with blue skies",
+        "description": "A beach hut with blue skies lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
         "occupancy": 4,
         "price": 2000,
         "location_id": 2
     },
     {
         "title": "Calm Hills",
-        "description": "A cabin in the green hills",
+        "description": "A cabin in the green hills lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
         "occupancy": 8,
         "price": 3000,
         "location_id": 3
     },
     {
        "title":"Safari Sunrise",
-       "description":"A picturesque safari lodge",
+       "description":"A picturesque safari lodge lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"12",
        "price":"2500",
        "location_id":"1"
     },
     {
        "title":"Peaceful Lion",
-       "description":"A calm tent in a lush safari location",
+       "description":"A calm tent in a lush safari location lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"3",
        "price":"1200",
        "location_id":"1"
     },
     {
        "title":"Zebra's  Retreat",
-       "description":"A wilderness dwelling in an animal preserve",
+       "description":"A wilderness dwelling in an animal preserve lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"5",
        "price":"1700",
        "location_id":"1"
     },
     {
        "title":"Lion's Cottage",
-       "description":"Serene  cottage in the lush greens",
+       "description":"Serene  cottage in the lush greens lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1100",
        "location_id":"2"
     },
     {
        "title":"Sunny Sands",
-       "description":"A beach hut with blue skies",
+       "description":"A beach hut with blue skies lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"4",
        "price":"2000",
        "location_id":"2"
     },
     {
        "title":"Calm Hills",
-       "description":"A cabin in the green hills",
+       "description":"A cabin in the green hills lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"8",
        "price":"3000",
        "location_id":"3"
     },
     {
        "title":"Moroccan Sands",
-       "description":"A blissful tent dwelling",
+       "description":"A blissful tent dwelling lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"800",
        "location_id":"3"
     },
     {
        "title":"Blue Waters",
-       "description":"A cabin refuge in the shallows",
+       "description":"A cabin refuge in the shallows lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"4",
        "price":"1000",
        "location_id":"4"
     },
     {
        "title":"Peaceful Hut",
-       "description":"A quiet hut overlooking the ocean",
+       "description":"A quiet hut overlooking the ocean lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"4",
        "price":"1200",
        "location_id":"4"
     },
     {
        "title":"Morning Sunrise",
-       "description":"A calm dwelling with a community experience",
+       "description":"A calm dwelling with a community experience lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1300",
        "location_id":"4"
     },
     {
        "title":"Zen Overlook",
-       "description":"A splendid cabin surrounded by treetops",
+       "description":"A splendid cabin surrounded by treetops lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"15",
        "price":"4000",
        "location_id":"4"
     },
     {
        "title":"Modern Mystery",
-       "description":"A contemporary dwelling with a warm breeze",
+       "description":"A contemporary dwelling with a warm breeze lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1500",
        "location_id":"4"
     },
     {
        "title":"Golden Peak",
-       "description":"A tranquil cabin with glorious views",
+       "description":"A tranquil cabin with glorious views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1220",
        "location_id":"5"
     },
     {
        "title":"Rainbow Valley",
-       "description":"A peaceful cabin overlooking natures beauty",
+       "description":"A peaceful cabin overlooking natures beauty lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"6",
        "price":"1400",
        "location_id":"5"
     },
     {
        "title":"Bear Basin",
-       "description":"A cabin alive with nature and wildlife",
+       "description":"A cabin alive with nature and wildlife lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1500",
        "location_id":"5"
     },
     {
        "title":"Splendid Pines",
-       "description":"A charming cabin with picturesque views",
+       "description":"A charming cabin with picturesque views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"3",
        "price":"1200",
        "location_id":"5"
     },
     {
        "title":"Eagle Forest",
-       "description":"An enchanting cabin in the fresh forest",
+       "description":"An enchanting cabin in the fresh forest lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1000",
        "location_id":"5"
     },
     {
        "title":"Whistling Woods",
-       "description":"A homey cabin with fascinating views",
+       "description":"A homey cabin with fascinating views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"4",
        "price":"1220",
        "location_id":"5"
     },
     {
        "title":"Rustic Crest",
-       "description":"An inspiring cabin with fascinating horizons",
+       "description":"An inspiring cabin with fascinating horizons lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"3",
        "price":"1400",
        "location_id":"6"
     },
     {
        "title":"Blissful Place",
-       "description":"An exquisite cabin deep in the wilderness",
+       "description":"An exquisite cabin deep in the wilderness lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"7",
        "price":"1500",
        "location_id":"6"
     },
     {
        "title":"Wildcat Retreat",
-       "description":"A tranquil cabin with fantastic views",
+       "description":"A tranquil cabin with fantastic views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"3",
        "price":"1200",
        "location_id":"6"
     },
     {
        "title":"Green Getaway",
-       "description":"A peaceful cabin overlooking a serene pond",
+       "description":"A peaceful cabin overlooking a serene pond lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"1",
        "price":"1000",
        "location_id":"6"
     },
     {
        "title":"Sunny Rock",
-       "description":"A cabin alive with nature and wildlife",
+       "description":"A cabin alive with nature and wildlife lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"4",
        "price":"1220",
        "location_id":"6"
     },
     {
        "title":"Coyote Bungalow",
-       "description":"A charming modern cabin with picturesque views",
+       "description":"A charming modern cabin with picturesque views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"6",
        "price":"1400",
        "location_id":"6"
     },
     {
        "title":"Happy Hideaway",
-       "description":"An enchanting modern cabin in the fresh forest",
+       "description":"An enchanting modern cabin in the fresh forest lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"7",
        "price":"1500",
        "location_id":"6"
     },
     {
        "title":"Grand Sky Lodge",
-       "description":"A dramatic grand cabin with amazing views",
+       "description":"A dramatic grand cabin with amazing views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"23",
        "price":"10000",
        "location_id":"6"
     },
     {
        "title":"Heaven's Place",
-       "description":"A peaceful cabin with fascinating horizons",
+       "description":"A peaceful cabin with fascinating horizons lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"3",
        "price":"1300",
        "location_id":"6"
     },
     {
        "title":"Wagon Lodge",
-       "description":"An exquisite cabin with glorious views and an old-time feel",
+       "description":"An exquisite cabin with glorious views and an old-time feel lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"4",
        "price":"1220",
        "location_id":"6"
     },
     {
        "title":"Lookout Cabin",
-       "description":"A charming A-frame with glorious horizon views",
+       "description":"A charming A-frame with glorious horizon views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1200",
        "location_id":"6"
     },
     {
        "title":"Blissful Garden Hut",
-       "description":"An enchanting hut with lush surrounds",
+       "description":"An enchanting hut with lush surrounds lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1000",
        "location_id":"7"
     },
     {
        "title":"Restful Hideaway",
-       "description":"A calm community of cabins",
+       "description":"A calm community of cabins lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"5",
        "price":"1400",
        "location_id":"7"
     },
     {
        "title":"Happy Hill Retreat",
-       "description":"A hillside tent with grand views",
+       "description":"A hillside tent with grand views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"4",
        "price":"1500",
        "location_id":"7"
     },
     {
        "title":"Serene Cove",
-       "description":"An impressive dwelling with panoramic views",
+       "description":"An impressive dwelling with panoramic views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"5",
        "price":"1800",
        "location_id":"8"
     },
     {
        "title":"Peaceful Hut",
-       "description":"Spectacular camp immersed in the lush greens",
+       "description":"Spectacular camp immersed in the lush greens lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1000",
        "location_id":"8"
     },
     {
        "title":"Misty Hut",
-       "description":"A charming hut with striking panoramic views",
+       "description":"A charming hut with striking panoramic views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"3",
        "price":"1100",
        "location_id":"8"
     },
     {
        "title":"Wonderland",
-       "description":"An inspiring seaside dome tent",
+       "description":"An inspiring seaside dome tent lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"8",
        "price":"5000",
        "location_id":"9"
     },
     {
        "title":"Happy Hut",
-       "description":"A rustic dwelling experience",
+       "description":"A rustic dwelling experience lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"1",
        "price":"800",
        "location_id":"9"
     },
     {
        "title":"Breezy Bay",
-       "description":"A water surrounded cottage with picturesque views",
+       "description":"A water surrounded cottage with picturesque views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"100",
        "location_id":"9"
     },
     {
        "title":"Secret Hideout",
-       "description":"A calm waterfront getaway",
+       "description":"A calm waterfront getaway lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1200",
        "location_id":"10"
     },
     {
        "title":"Peaceful Hut",
-       "description":"A thatched-roofed hut with a calm breeze",
+       "description":"A thatched-roofed hut with a calm breeze lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"1",
        "price":"900",
        "location_id":"10"
     },
     {
        "title":"Wonderous Solitude",
-       "description":"Hill-top hideout with woodland views",
+       "description":"Hill-top hideout with woodland views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"4",
        "price":"1400",
        "location_id":"11"
     },
     {
        "title":"Winter Mystique",
-       "description":"A glorious winter retreat with pristine snowfall",
+       "description":"A glorious winter retreat with pristine snowfall lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"4",
        "price":"2000",
        "location_id":"11"
     },
     {
        "title":"Cliff Hang Cottage",
-       "description":"A tranquil cliff cottage with panoramic water views",
+       "description":"A tranquil cliff cottage with panoramic water views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"1",
        "price":"1500",
        "location_id":"11"
     },
     {
        "title":"Forest Pinnacle",
-       "description":"An impressive dwelling deep in the forest",
+       "description":"An impressive dwelling deep in the forest lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"2000",
        "location_id":"11"
     },
     {
        "title":"Sunny Solitude",
-       "description":"A warm and cozy A-frame cabin",
+       "description":"A warm and cozy A-frame cabin lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"800",
        "location_id":"12"
     },
     {
        "title":"Treetop Terrace",
-       "description":"A charming elevated modern cabin",
+       "description":"A charming elevated modern cabin lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"500",
        "location_id":"12"
     },
     {
        "title":"Petite Refuge",
-       "description":"A cozy hideout for a solitude seeker",
+       "description":"A cozy hideout for a solitude seeker lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"1",
        "price":"500",
        "location_id":"12"
     },
     {
        "title":"Grand Tree Retreat",
-       "description":"A modern mystical lakefront getaway",
+       "description":"A modern mystical lakefront getaway lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"5",
        "price":"2300",
        "location_id":"12"
     },
     {
        "title":"Timeless Treehouse",
-       "description":"A unique thatched-roof hut nestled in the trees",
+       "description":"A unique thatched-roof hut nestled in the trees lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"2000",
        "location_id":"12"
     },
     {
        "title":"Splendid Refuge",
-       "description":"A calm retreat with rocky views",
+       "description":"A calm retreat with rocky views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"6",
        "price":"3000",
        "location_id":"13"
     },
     {
        "title":"Misty Meadow",
-       "description":"A peaceful cabin with misty mountain views",
+       "description":"A peaceful cabin with misty mountain views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"2000",
        "location_id":"13"
     },
     {
        "title":"Valley View",
-       "description":"A friendly cabin community in the valley",
+       "description":"A friendly cabin community in the valley lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1000",
        "location_id":"13"
     },
     {
        "title":"Evening Dreamer",
-       "description":"A quiet cottage with breathtaking evening sky views",
+       "description":"A quiet cottage with breathtaking evening sky views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1200",
        "location_id":"13"
     },
     {
        "title":"Calm Cove",
-       "description":"A dramatic  window-filled cabin with 360 degree views",
+       "description":"A dramatic  window-filled cabin with 360 degree views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1000",
        "location_id":"13"
     },
     {
        "title":"Darling Dome",
-       "description":"A unique heated cabin in the quiet woods",
+       "description":"A unique heated cabin in the quiet woods lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"3",
        "price":"1300",
        "location_id":"14"
     },
     {
        "title":"Sky Lover",
-       "description":"A bird-watcher's paradise among the tree tops",
+       "description":"A bird-watcher's paradise among the tree tops lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"1",
        "price":"3000",
        "location_id":"14"
     },
     {
        "title":"Rustic Rendezvous",
-       "description":"A serene hilltop cabin",
+       "description":"A serene hilltop cabin lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"900",
        "location_id":"14"
     },
     {
        "title":"Valley Wonder",
-       "description":"A splendid cabin nestled at the bottom of a mountain",
+       "description":"A splendid cabin nestled at the bottom of a mountain lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"1",
        "price":"500",
        "location_id":"14"
     },
     {
        "title":"Quiet Whisper",
-       "description":"A modest and cozy lake-front cabin with picture perfect views",
+       "description":"A modest and cozy lake-front cabin with picture perfect views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"1",
        "price":"500",
        "location_id":"14"
     },
     {
        "title":"Overlook Nest",
-       "description":"A nest-like treehouse with glorious lake views",
+       "description":"A nest-like treehouse with glorious lake views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"700",
        "location_id":"14"
     },
     {
        "title":"Blissful Solitude",
-       "description":"A tranquil ocean-front hut",
+       "description":"A tranquil ocean-front hut lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"500",
        "location_id":"15"
     },
     {
        "title":"Calm Cove",
-       "description":"Serene water -front cabin community",
+       "description":"Serene water -front cabin community lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"600",
        "location_id":"15"
     },
     {
        "title":"Peaceful Hideout",
-       "description":"A quiet water-front cottage with a warm ocean breeze",
+       "description":"A quiet water-front cottage with a warm ocean breeze lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"4",
        "price":"1000",
        "location_id":"15"
     },
     {
        "title":"Happy Hut",
-       "description":"A water lovers paradise",
+       "description":"A water lovers paradise lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1000",
        "location_id":"15"
     },
     {
        "title":"Sunrise Reef",
-       "description":"A serene water immersion getaway",
+       "description":"A serene water immersion getaway lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"8",
        "price":"4000",
        "location_id":"15"
     },
     {
        "title":"Misty Mountain",
-       "description":"A cabin nestled in the valley with snow-capped mountain views",
+       "description":"A cabin nestled in the valley with snow-capped mountain views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"4",
        "price":"1000",
        "location_id":"16"
     },
     {
        "title":"Sunrise Cottage",
-       "description":"A barrel-shaped cottage nestled in the gardens",
+       "description":"A barrel-shaped cottage nestled in the gardens lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1200",
        "location_id":"16"
     },
     {
        "title":"Horizon Dome",
-       "description":"A barrel-shaped cottage with vibrant horizons",
+       "description":"A barrel-shaped cottage with vibrant horizons lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"1300",
        "location_id":"16"
     },
     {
        "title":"Humble Hut",
-       "description":"A cozy hideout for finding peace and quiet",
+       "description":"A cozy hideout for finding peace and quiet lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"750",
        "location_id":"17"
     },
     {
        "title":"Grand View",
-       "description":"Upscale cabins surrounded by water and glorious mountain views",
+       "description":"Upscale cabins surrounded by water and glorious mountain views lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"4",
        "price":"3000",
        "location_id":"17"
     },
     {
        "title":"Hot Sands",
-       "description":"Romantic beach-front dwelling with a warm water breeze",
+       "description":"Romantic beach-front dwelling with a warm water breeze lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"2",
        "price":"2000",
        "location_id":"17"
     },
     {
        "title":"Placid Refuge",
-       "description":"A tranquil water-front ocean cottage",
+       "description":"A tranquil water-front ocean cottage lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"1",
        "price":"500",
        "location_id":"17"
     },
     {
        "title":"Breezy Overlook",
-       "description":"A modern thatched-roof getaway for the entire family",
+       "description":"A modern thatched-roof getaway for the entire family lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit duis tristique sollicitudin nibh.",
        "occupancy":"6",
        "price":"3000",
        "location_id":"17"
