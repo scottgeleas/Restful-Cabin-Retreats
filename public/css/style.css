@@ -141,6 +141,7 @@ form {
 
 .btn:hover,
 .btn:focus {
+    color: var(--white);
     background-color: var(--light-green);
 }
 
