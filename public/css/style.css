@@ -59,15 +59,69 @@ img {
     width: 100%;
 }
 
-a {
-    color: inherit;
+a,
+.btn-link {
+    color: var(--dark-green);
     transition: color .25s ease-in-out;
+    cursor: pointer;
+}
+
+a:hover,
+.btn-link:hover {
+    color: var(--light-green);
+}
+
+form {
+    display: block;
 }
 
 /*----- END Basic Styles -----*/
 
 
 /*----- Common Styles -----*/
+
+.hidden {
+    display: none !important;
+}
+
+.form-group,
+.form-btn-group {
+    margin-bottom: var(--normal-indent);
+}
+
+.form-btn-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-message {
+    margin: 0;
+}
+
+.form-label {
+    display: inline-block;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin-bottom: var(--extra-small-indent);
+}
+
+.form-input {
+    display: block;
+    color: var(--black);
+    border-radius: 4px;
+    border: 1px solid var(--dark-green);
+    background-color: var(--white);
+    font-size: 1rem;
+    line-height: 1.2;
+    width: 100%;
+    padding: var(--extra-small-indent);
+    margin-bottom: var(--extra-small-indent);
+}
+
+.form-input:focus {
+    outline-color: var(--light-green);
+}
 
 .btn {
     appearance: none;
@@ -78,6 +132,7 @@ a {
     background-color: var(--dark-green);
     font-size: 1rem;
     line-height: 1;
+    font-weight: 700;
     text-decoration: none;
     padding: var(--small-indent) var(--normal-indent);
     transition: background-color .25s ease-in-out;
@@ -86,7 +141,17 @@ a {
 
 .btn:hover,
 .btn:focus {
-    background-color: var(--green);
+    background-color: var(--light-green);
+}
+
+.btn-link {
+    appearance: none;
+    border: none;
+    background-color: transparent;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: 700;
+    text-decoration: underline;
 }
 
 .alert-message {
@@ -95,6 +160,11 @@ a {
     border: 1px solid;
     padding: var(--normal-indent);
     margin: var(--normal-indent) 0;
+}
+
+.page-title {
+    font-size: 2.6rem;
+    margin-bottom: var(--large-indent);
 }
 
 /*----- END Common Styles -----*/
@@ -115,16 +185,15 @@ a {
     z-index: 10;
 }
 
+.site-header a,
+.site-header a:hover {
+    color: inherit;
+}
+
 .logo {
     font-size: 2rem;
     font-weight: 300;
     text-decoration: none;
-}
-
-.main-nav {
-    display: inline-flex;
-    justify-content: flex-end;
-    align-items: center;
 }
 
 .main-nav-toggle {
@@ -132,14 +201,23 @@ a {
     padding: var(--extra-small-indent);
 }
 
-.main-nav a {
+.main-nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.main-nav-item {
+    margin: 0 var(--small-indent);
+}
+
+.main-nav-item a {
+    display: inline-block;
     font-size: 1rem;
     font-weight: 700;
     text-decoration: none;
-}
-
-.main-nav-list {
-    list-style: none;
+    padding: var(--extra-small-indent) 0;
 }
 
 @media screen and (min-width: 768px) {
@@ -154,6 +232,9 @@ a {
     }
 
     .main-nav-list {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
         background-color: var(--green);
         width: 300px;
         max-width: 85vw;
@@ -169,10 +250,20 @@ a {
         transform: translateX(0%);
     }
 
+    .main-nav-item {
+        width: 100%;
+        margin: 0;
+    }
+
     .main-nav-item a {
         display: block;
         border-bottom: 1px solid var(--dark-green);
         padding: var(--small-indent);
+        transition: background-color .25s ease-in-out;
+    }
+
+    .main-nav-item a:hover {
+        background-color: var(--light-green);
     }
 }
 
@@ -183,6 +274,12 @@ a {
 
 .content-wrapper {
     max-width: 1440px;
+    padding: 0 var(--small-indent);
+    margin: 0 auto;
+}
+
+.narrow-content-wrapper {
+    max-width: 768px;
     padding: 0 var(--small-indent);
     margin: 0 auto;
 }
@@ -233,6 +330,11 @@ a {
     margin-bottom: var(--normal-indent);
 }
 
+.login-page-content {
+    padding-top: calc(var(--large-indent) * 3);
+    padding-bottom: calc(var(--large-indent) * 3);
+}
+
 @media screen and (max-width: 1280px) {
     .hero-banner img {
         width: auto;
@@ -264,6 +366,11 @@ a {
     .cabin-item {
         width: 100%;
         margin: 0 0 var(--small-indent) 0;
+    }
+
+    .login-page-content {
+        padding-top: var(--normal-indent);
+        padding-bottom: var(--normal-indent);
     }
 }
 
