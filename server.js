@@ -4,6 +4,7 @@ const session = require('express-session');
 const exphbs = require('express-handlebars');
 const routes = require('./controllers');
 const sequelize = require('./config/connection');
+const helpers = require('./utils/helpers');
 
 // initializing an express app
 const app = express();
@@ -34,6 +35,7 @@ const hbs = exphbs.create({
     defaultLayout: 'base',
     layoutsDir: path.join(__dirname, '/views/layouts/'),
     partialsDir: path.join(__dirname, '/views/partials/'),
+    helpers: helpers,
 });
 
 app.engine('hbs', hbs.engine);
