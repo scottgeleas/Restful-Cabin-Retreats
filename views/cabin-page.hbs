@@ -19,9 +19,18 @@
                 </p>
                 <p class="cabin-description">{{cabin.description}}</p>
                 {{#if loggedIn}}
-                    <button class="btn js-check-availability">Check Availability</button>
+                    <button class="btn js-datepicker-toggle">Check Availability</button>
                 {{/if}}
             </div>
+            {{#if loggedIn}}
+                <div class="reservation-block js-reservation-block">
+                    <input class="js-datepicker hidden" type="hidden" readonly data-reservations="{{reservations}}" data-cabin-id="{{cabin.id}}">
+                    <div class="reservation-btns">
+                        <button class="btn js-reserve-dates" disabled>Reserve</button>
+                        <button class="btn js-clear-dates" disabled>Clear</button>
+                    </div>
+                </div>
+            {{/if}}
         </div>
     {{/inline}}
 {{/main-content}}
@@ -31,5 +40,8 @@
 {{#> scripts-block}}
     {{#*inline "script-files"}}
         <script src="/js/cabin.js"></script>
+        {{#if loggedIn}}
+            <script src="/js/reservation.js"></script>
+        {{/if}}
     {{/inline}}
 {{/scripts-block}}
