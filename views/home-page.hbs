@@ -17,7 +17,7 @@
                                 <span class="info-item"><i class="bi bi-people-fill"></i> {{cabin.occupancy}}</span>
                                 <span class="info-item"><i class="bi bi-currency-dollar"></i>{{cabin.price}}</span>
                             </p>
-                            <p class="cabin-description">{{cabin.description}}</p>
+                            <p class="cabin-description">{{truncText cabin.description 80}}</p>
                             <a href="/cabins/{{cabin.id}}" class="btn">View Details</a>
                         </li>
                     {{/each}}
