@@ -37,8 +37,6 @@ router.get('/', withAuth, async (req, res) => {
 
         const reservations = reservationData.map(reservation => reservation.get({ plain: true }));
 
-        console.log(reservations);
-
         res.render('dashboard-page', {
             reservations: reservations,
             loggedIn: req.session.loggedIn,

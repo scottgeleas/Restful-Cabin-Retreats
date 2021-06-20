@@ -2,18 +2,6 @@ const router = require('express').Router();
 const { Reservation } = require('../../models');
 const withAuth = require('../../utils/withAuth');
 
-router.get('/', withAuth, async (req, res) => {
-    try {
-        const reservationData = await Reservation.findAll();
-
-        const reservations = reservationData.map(item => item.get({ plain: true }));
-
-        res.status(200).json(reservations);
-    } catch (err) {
-        res.status(400).json(err);
-    }
-});
-
 router.post('/', withAuth, async (req, res) => {
     try {
         const newReservation = await Reservation.create({
