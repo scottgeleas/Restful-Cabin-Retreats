@@ -140,6 +140,11 @@ form {
     cursor: pointer;
 }
 
+.btn.small-btn {
+    font-size: 1rem;
+    padding: var(--extra-small-indent);
+}
+
 .btn:hover,
 .btn:focus {
     color: var(--white);
@@ -180,9 +185,18 @@ form {
     margin-bottom: var(--large-indent);
 }
 
+.block-title {
+    font-size: 2rem;
+    margin-bottom: var(--normal-indent);
+}
+
 @media screen and (max-width: 767px) {
     .page-title {
         font-size: 2.2rem;
+    }
+
+    .block-title {
+        font-size: 1.6rem;
     }
 }
 
@@ -323,6 +337,7 @@ form {
 }
 
 .cabin-item .cabin-image {
+    display: block;
     background-color: var(--light-green);
     background-repeat: no-repeat;
     background-size: cover;
@@ -654,6 +669,72 @@ span.flatpickr-weekday {
     background: var(--light-grey) !important;
 }
 
+.reservations-list {
+    list-style: none;
+}
+
+.reservation-item {
+    display: flex;
+    margin-bottom: var(--normal-indent);
+}
+
+.reservation-item + .reservation-item {
+    border-top: 1px solid var(--light-grey);
+    padding-top: var(--normal-indent);
+}
+
+.reservation-item .cabin-image {
+    align-self: flex-start;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 20%;
+    min-width: 240px;
+    margin-right: var(--small-indent);
+}
+
+.reservation-item .cabin-image::before {
+    content: '';
+    display: block;
+    width: 100%;
+    padding: 0 0 60%;
+}
+
+.reservation-item .details-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.reservation-item .cabin-details {
+    flex: 1;
+    padding-right: var(--small-indent);
+}
+
+.reservation-item .cabin-title {
+    font-size: 1.6rem;
+    margin: 0 0 var(--extra-small-indent) 0;
+}
+
+.reservation-item .cabin-description {
+    max-width: 440px;
+}
+
+.reservation-item .reservation-details {
+    text-align: right;
+}
+
+.reservation-item .reservation-details .start-date,
+.reservation-item .reservation-details .end-date {
+    margin-bottom: var(--extra-small-indent);
+}
+
+.reservation-item .actions {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
 @media screen and (max-width: 1280px) {
     .hero-banner img {
         width: auto;
@@ -733,6 +814,33 @@ span.flatpickr-weekday {
 
     .flatpickr-day {
         font-size: 1rem;
+    }
+
+    .reservation-item,
+    .reservation-item .details-wrapper {
+        display: block;
+    }
+
+    .reservation-item .cabin-image {
+        width: 100%;
+        min-width: 100%;
+        margin: 0 0 var(--small-indent) 0;
+    }
+
+    .reservation-item .cabin-info {
+        margin-bottom: var(--small-indent);
+    }
+
+    .reservation-item .reservation-details {
+        text-align: inherit;
+    }
+
+    .reservation-item .reservation-details p {
+        margin-bottom: var(--extra-small-indent);
+    }
+
+    .reservation-item .actions {
+        padding-top: var(--small-indent);
     }
 }
 
