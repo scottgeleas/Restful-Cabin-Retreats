@@ -557,32 +557,23 @@ span.flatpickr-weekday {
 }
 
 .flatpickr-day {
+    --day-cell-radius: 20px;
     color: inherit;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-radius: var(--day-cell-radius);
     font-size: 1.2rem;
     line-height: 3;
     max-width: initial;
     height: auto;
 }
 
-.flatpickr-day.today,
-.flatpickr-day.today.flatpickr-disabled,
-.flatpickr-day.today.flatpickr-disabled:hover,
-.flatpickr-day.today.flatpickr-disabled:focus {
-    border-color: var(--green);
-}
-
-.flatpickr-day.today:hover,
-.flatpickr-day.today:focus {
-    color: var(--white);
-    border-color: var(--green);
-    background-color: var(--green);
-}
-
-.flatpickr-day.prevMonthDay,
-.flatpickr-day.nextMonthDay {
-    color: var(--grey);
-}
-
+.flatpickr-day.inRange,
+.flatpickr-day.prevMonthDay.inRange,
+.flatpickr-day.nextMonthDay.inRange,
+.flatpickr-day.today.inRange,
+.flatpickr-day.prevMonthDay.today.inRange,
+.flatpickr-day.nextMonthDay.today.inRange,
 .flatpickr-day:hover,
 .flatpickr-day.prevMonthDay:hover,
 .flatpickr-day.nextMonthDay:hover,
@@ -591,34 +582,18 @@ span.flatpickr-weekday {
 .flatpickr-day.nextMonthDay:focus {
     color: var(--white);
     border-color: var(--green);
-    background-color: var(--green);
+    background: var(--green);
 }
 
-.flatpickr-day.notAllowed,
-.flatpickr-day.notAllowed.prevMonthDay,
-.flatpickr-day.notAllowed.nextMonthDay,
-.flatpickr-day.notAllowed:hover,
-.flatpickr-day.notAllowed:focus,
-.flatpickr-day.notAllowed.prevMonthDay:hover,
-.flatpickr-day.notAllowed.prevMonthDay:focus,
-.flatpickr-day.notAllowed.nextMonthDay:hover,
-.flatpickr-day.notAllowed.nextMonthDay:focus {
-    color: var(--grey);
-    border-color: transparent;
-    background-color: transparent;
+.flatpickr-day.today {
+    border-color: var(--dark-green);
 }
 
-.flatpickr-day.inRange,
-.flatpickr-day.prevMonthDay.inRange,
-.flatpickr-day.nextMonthDay.inRange,
-.flatpickr-day.today.inRange,
-.flatpickr-day.prevMonthDay.today.inRange,
-.flatpickr-day.nextMonthDay.today.inRange {
+.flatpickr-day.today:hover,
+.flatpickr-day.today:focus {
     color: var(--white);
-    -webkit-box-shadow: none;
-    box-shadow: none;
-    border-color: var(--green);
-    background-color: var(--green);
+    border-color: var(--dark-green);
+    background: var(--dark-green);
 }
 
 .flatpickr-day.selected,
@@ -640,26 +615,37 @@ span.flatpickr-weekday {
 .flatpickr-day.startRange.nextMonthDay,
 .flatpickr-day.endRange.nextMonthDay {
     color: var(--white);
-    -webkit-box-shadow: none;
-    box-shadow: none;
     border-color: var(--light-green);
-    background-color: var(--light-green);
+    background: var(--light-green);
+}
+
+.flatpickr-day.selected.startRange,
+.flatpickr-day.startRange.startRange,
+.flatpickr-day.endRange.startRange {
+    border-radius: var(--day-cell-radius) 0 0 var(--day-cell-radius);
+}
+.flatpickr-day.selected.endRange,
+.flatpickr-day.startRange.endRange,
+.flatpickr-day.endRange.endRange {
+    border-radius: 0 var(--day-cell-radius) var(--day-cell-radius) 0;
+}
+
+.flatpickr-day.prevMonthDay,
+.flatpickr-day.nextMonthDay,
+.flatpickr-day.notAllowed,
+.flatpickr-day.notAllowed.prevMonthDay,
+.flatpickr-day.notAllowed.nextMonthDay {
+    color: var(--grey);
+    background: transparent;
+    border-color: transparent;
 }
 
 .flatpickr-day.flatpickr-disabled,
-.flatpickr-day.flatpickr-disabled:hover,
-.flatpickr-day.flatpickr-disabled.notAllowed,
-.flatpickr-day.flatpickr-disabled.notAllowed:hover {
-    color: var(--grey);
-    border-color: var(--light-grey);
-    background-color: var(--light-grey);
-}
-
-.flatpickr-day.selected.startRange + .endRange:not(:nth-child(7n+1)),
-.flatpickr-day.startRange.startRange + .endRange:not(:nth-child(7n+1)),
-.flatpickr-day.endRange.startRange + .endRange:not(:nth-child(7n+1)) {
-    -webkit-box-shadow: none; /* -10px 0 0 var(--light-green) */
-    box-shadow: none; /* -10px 0 0 var(--light-green) */
+.flatpickr-day.flatpickr-disabled:hover {
+    color: var(--grey) !important;
+    border-radius: var(--day-cell-radius) !important;
+    border-color: var(--light-grey) !important;
+    background: var(--light-grey) !important;
 }
 
 @media screen and (max-width: 1280px) {
