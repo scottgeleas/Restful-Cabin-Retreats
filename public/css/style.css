@@ -630,6 +630,12 @@ span.flatpickr-weekday {
     border-radius: 0 var(--day-cell-radius) var(--day-cell-radius) 0;
 }
 
+.flatpickr-day.selected.startRange.endRange,
+.flatpickr-day.startRange.startRange.endRange,
+.flatpickr-day.endRange.startRange.endRange {
+    border-radius: var(--day-cell-radius);
+}
+
 .flatpickr-day.prevMonthDay,
 .flatpickr-day.nextMonthDay,
 .flatpickr-day.notAllowed,
