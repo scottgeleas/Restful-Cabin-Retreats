@@ -1,0 +1,30 @@
+{{> header}}
+
+{{#> main-content}}
+    {{#*inline "content"}}
+        <div class="content-wrapper">
+            <h2 class="page-title">Dashboard</h2>
+            <h3 class="">Your reservation:</h3>
+
+            {{#if reservations}}
+                <ul class="reservations-list">
+                    {{#each reservations as |reservation|}}
+                        <li class="reservation-item">
+                            <div class="cabin-image" style="background-image: url({{reservation.cabin.images.[0].src}});"></div>
+                            {{reservation.reservation_start}}{{reservation.reservation_end}}
+                            {{reservation.cabin.title}}
+                        </li>
+                    {{/each}}
+                </ul>
+            {{else}}
+                <p class="message-alert">You don't have reservation yet!</p>
+            {{/if}}
+        </div>
+    {{/inline}}
+{{/main-content}}
+
+{{> footer}}
+
+{{#> scripts-block}}
+    {{#*inline "script-files"}}{{/inline}}
+{{/scripts-block}}
