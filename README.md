@@ -31,7 +31,7 @@ The members of our team (Group B) include: Oleksandr Kulyk, Scott Geleas, and Ni
   [Project 2: RESTful Cabin Retreats](https://github.com/scottgeleas/Restful-Cabin-Retreats)
 
   ### Heroku Link 
-  [Project 2: RESTful Cabin Retreats](https://git.heroku.com/HEROKU_LINK_HERE.git)
+  [Project 2: RESTful Cabin Retreats](https://restful-cabin-retreats.herokuapp.com/)
 
   ## Screen Capture
   This capture depicts our application's homepage.
