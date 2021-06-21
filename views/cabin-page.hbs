@@ -20,6 +20,8 @@
                 <p class="cabin-description">{{cabin.description}}</p>
                 {{#if loggedIn}}
                     <button class="btn js-datepicker-toggle">Check Availability</button>
+                {{else}}
+                    <p class="alert-message">To be able to reserve this cabin, you should <a href="/login">login</a> to the website.</p>
                 {{/if}}
             </div>
             {{#if loggedIn}}
